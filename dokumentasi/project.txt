@@ -1,0 +1,40 @@
+Diary ---> Journal
+
+Tabel
+===============
+1. User / Akun
+    - Nama
+    - UserName
+    - Email
+    - Phone Number
+    - Password
+
+2. Login
+    - UserName
+    - Password
+
+3. SignUp
+    - Nama
+    - UserName
+    - Email
+    - Phone Number
+    - Password
+    - Captcha
+
+4. Tampilan Utama
+    - Journal
+    - Enteries
+    - Profile
+
+5. Journal
+    - Entry
+    - Create Entry
+    - Delete Entry
+    - Edit Journal
+
+6. Enteries
+    - Edit Entry
+
+7. Profile
+    - Akun
+    - Settings
