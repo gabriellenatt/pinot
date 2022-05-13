@@ -1,40 +1,28 @@
 Diary ---> Journal
 
 Tabel
-===============
+==================================================
 1. User / Akun
-    - Nama
-    - UserName
-    - Email
-    - Phone Number
-    - Password
+    - User_ID INT AUTO_INCREMENT PRIMARY KEY
+    - Nama VARCHAR(200)
+    - UserName VARCHAR(150)
+    - Email VARCHAR(150)
+    - Nomor_HP INT(15)
+    - Password VARCHAR(50)
+    - Created_at TIMESTAMP CURRENT_TIMESTAMP()
+    - Updated_at TIMESTAMP CURRENT_TIMESTAMP()
 
-2. Login
-    - UserName
-    - Password
+2. Journal
+    - Journal_ID INT AUTO INCREMENT PRIMARY KEY
+    - Judul VARCHAR(150)
+    - Entry_ID INT(11) INDEKS
+    - Created_at TIMESTAMP CURRENT_TIMESTAMP()
+    - Updated_at TIMESTAMP CURRENT_TIMESTAMP()
+    - User_Id INT(11) INDEKS
 
-3. SignUp
-    - Nama
-    - UserName
-    - Email
-    - Phone Number
-    - Password
-    - Captcha
-
-4. Tampilan Utama
-    - Journal
-    - Enteries
-    - Profile
-
-5. Journal
-    - Entry
-    - Create Entry
-    - Delete Entry
-    - Edit Journal
-
-6. Enteries
-    - Edit Entry
-
-7. Profile
-    - Akun
-    - Settings
+3. Enteries
+    - Entry_ID INT(11) AUTO_INCREMENT PRIMARY KEY
+    - Konten VARCHAR(1000)
+    - Created_at TIMESTAMP CURRENT_TIMESTAMP()
+    - Updated_at TIMESTAMP CURRENT_TIMESTAMP()
+    - Journal_ID INT(11) INDEKS

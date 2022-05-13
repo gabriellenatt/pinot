@@ -1,0 +1,28 @@
+{
+  "name": "pinot",
+  "version": "1.0.0",
+  "description": "pinot data",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriellenatt/test.git"
+  },
+  "keywords": [ "backend" ],
+  "author": "Gabrielle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriellenatt/test/issues"
+  },
+  "homepage": "https://github.com/gabriellenatt/test#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+}
